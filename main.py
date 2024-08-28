@@ -43,7 +43,7 @@ def get_user_info(user_id):
     user_info = None
 
     try:
-        # Connect to the SQLite database
+        # Connect to the SQLite database -
         connection = sqlite3.connect('example.db')
         cursor = connection.cursor()
 
